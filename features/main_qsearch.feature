@@ -1,42 +1,18 @@
 @normal
 Feature: Checking qsearch (step)
-Scenario: Try to search
+Scenario Outline: Try to qsearch
   Given website "https://www.mirkrestikom.ru/"
-  Then insert by id 'search_input' 'набор'
+  Then insert by id 'search_input' '<text>'
   Then page wait '3'
-  Then find element 'a' with text 'МП Студия'
-Scenario: Try to search НВ-659
-  Then clear element by id 'search_input'
-  Then insert by id 'search_input' 'НВ-659'
-  Then page wait '3'
-  Then find element 'a' with text 'НВ-659 Парящий зяблик (МП Студия)'
-Scenario: Try to search АО-008
-  Then clear element by id 'search_input'
-  Then insert by id 'search_input' 'АО-008'
-  Then page wait '3'
-  Then find element 'a' with text 'АО-008 "Пасхальная открытка-8" набор-открытка'
-Scenario: Try to search EH337
-  Then clear element by id 'search_input'
-  Then insert by id 'search_input' 'EH337'
-  Then page wait '3'
-  Then find element 'a' with text 'EH337 Портрет девушки'
-Scenario: Try to search CU029
-  Then clear element by id 'search_input'
-  Then insert by id 'search_input' 'CU029'
-  Then page wait '3'
-  Then find element 'a' with text 'CU029 - Сердцеед'
-Scenario: Try to search вт-1003
-  Then clear element by id 'search_input'
-  Then insert by id 'search_input' 'вт-1003'
-  Then page wait '3'
-  Then find element 'a' with text 'ВТ-1003 "Черника" - чм' 
-Scenario: Try to search -000575
-  Then clear element by id 'search_input'
-  Then insert by id 'search_input' '-000575'
-  Then page wait '3'
-  Then find element 'a' with text 'MI-000575 Карнавальная ночь'
- Scenario: Try to search П36
-  Then clear element by id 'search_input'
-  Then insert by id 'search_input' 'П36'
-  Then page wait '3'
-  Then find element 'a' with text 'П-36 Пионы и розы'
+  Then find element 'a' with text '<result>'
+
+ Examples: querries
+   | text     | result                                                          |
+   | набор    | 8514 Набор для шитья и вышивания - текстильная сумка набор (МП) |
+   | НВ-659   | НВ-659 Парящий зяблик (МП Студия)                               |
+   | АО-008   | АО-008 "Пасхальная открытка-8" набор-открытка                   |
+   | EH337    | EH337 Портрет девушки                                           |
+   | CU029    | CU029 - Сердцеед                                                |
+   | вт-1003  | ВТ-1003 "Черника" - чм                                          |
+   | -000575  | MI-000575 Карнавальная ночь                                     |
+   | П36      | П-36 Пионы и розы                                               |
