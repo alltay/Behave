@@ -1,11 +1,10 @@
-@normal
 Feature: Checking qsearch (step)
-Scenario Outline: Try to qsearch
-  Given website "https://www.mirkrestikom.ru/"
+Scenario Outline: Open page
+  Given website 'https://www.mirkrestikom.ru/'
+  Then clear by id 'search_input'
   Then insert by id 'search_input' '<text>'
-  Then page wait '3'
+  Then page wait '5'
   Then find element 'a' with text '<result>'
-
  Examples: querries
    | text     | result                                                          |
    | набор    | 8514 Набор для шитья и вышивания - текстильная сумка набор (МП) |

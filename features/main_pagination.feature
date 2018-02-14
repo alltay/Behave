@@ -1,7 +1,7 @@
 Feature: Checking pagination (step)
 @critical
 Scenario Outline: Product pages
-   Given websites <url>
+   Given website '<url>'
   Then scroll to '300'
   Then page include by class 'pagenav'
   Then push link with text '<link>'
@@ -9,7 +9,6 @@ Scenario Outline: Product pages
   Then page include by class 'info_item_table2'
   Then page include by class 'pagenav'
   Then page include by class 'ss-pagact'
-  Then find element with class '<class>' and text '<text>'
 
  Examples: Brands
    | url                                                                      | link | class     | text |
@@ -44,7 +43,7 @@ Scenario Outline: Product pages
    | https://www.mirkrestikom.ru/search/#ssaf-contents?action=results&query=01&pagenum=2 | «    | ss-pagact | 1    |
 
 Scenario Outline: Other pages
-   Given websites <url>
+   Given website '<url>'
   Then scroll to '300'
   Then page include by class 'pagenav'
   Then push link with text '<link>'
@@ -52,7 +51,6 @@ Scenario Outline: Other pages
   Then page include by class 'last_stories_div'
   Then page include by class 'pagenav'
   Then page include by class 'ss-pagact'
-  Then find element with class '<class>' and text '<text>'
 
  Examples: Articles
    | url                                          | link | class     | text |
@@ -69,15 +67,13 @@ Scenario Outline: Other pages
    | https://www.mirkrestikom.ru/news/global/page/2/ | «    | ss-pagact | 1    |
 
 Scenario Outline: GuestBook
-   Given websites <url>
+   Given website '<url>'
   Then scroll to '300'
   Then page include by class 'pagenav'
   Then push link with text '<link>'
   Then scroll to '400'
   Then page include by class 'outer'
   Then page include by class 'pagenav'
-  Then page include by class 'ss-pagact'
-  Then find element with class '<class>' and text '<text>'
 
  Examples: GuestBook
    | url                                                   | link | class     | text |

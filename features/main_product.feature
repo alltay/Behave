@@ -1,6 +1,6 @@
 Feature: Checking product page (step)
 Scenario: Checking head
-  Given website "https://www.mirkrestikom.ru/shop/goods/2691065_13666-dms-viktorianskoe-ocharovanie/"
+  Given website 'https://www.mirkrestikom.ru/shop/goods/2691065_13666-dms-viktorianskoe-ocharovanie/'
   Then find element 'h1' with text '13666-DMS Викторианское очарование'
   Then page include by class 'path'
 Scenario: Checking iages

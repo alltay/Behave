@@ -11,15 +11,10 @@ import time
 
 
 # Open page
-@given('website "{url}"')
+@given("website '{url}'")
 def step(context, url):
     context.browser.get(url)
     
-# Open pages
-@given(u'websites {url}')
-def step(context, url):
-    context.browser.get(url)
-
 # Scroll down
 @then("scroll to '{text}'")
 def step(context, text):
@@ -58,6 +53,13 @@ def step(context, id ,text):
     WebDriverWait(context.browser, 5).until(
         EC.presence_of_element_located((By.ID, id)))
     context.browser.find_element_by_id(id).send_keys(text)
+
+# Find element by id and clear
+@then("clear by id '{id}'")
+def step(context, id):
+    WebDriverWait(context.browser, 5).until(
+        EC.presence_of_element_located((By.ID, id)))
+    context.browser.find_element_by_id(id).clear()
 
 # Find text by element tag
 @then("find element '{tag}' with text '{text}'")

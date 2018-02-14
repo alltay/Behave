@@ -1,6 +1,6 @@
 Feature: Checking list (step)
-Scenario Outline: Blenders
-   Given websites <url>
+Scenario Outline: Change sort
+   Given website '<url>'
   Then scroll to '300'
   Then page include by class 'view_count_options'
   Then select <order> from list by name <view>
