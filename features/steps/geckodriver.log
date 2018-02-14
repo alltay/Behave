@@ -10069,3 +10069,188 @@ JavaScript error: https://www.mirkrestikom.ru/cabinet/userinfo/?uid=362, line 44
 JavaScript note: https://www.mirkrestikom.ru/cabinet/userinfo/?uid=362, line 443: [ opened at line 443, column 12
 Unable to read VR Path Registry from C:\Users\user\AppData\Local\openvr\openvrpaths.vrpath
 [Child 6356, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1518613751578	geckodriver	INFO	geckodriver 0.19.1
+1518613751588	geckodriver	INFO	Listening on 127.0.0.1:53018
+1518613751618	mozrunner::runner	INFO	Running command: "c:\\program files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofile.J50BPSdUmrFi"
+1518613752409	Marionette	INFO	Enabled via --marionette
+1518613754291	Marionette	INFO	Listening on port 53022
+1518613754637	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\user\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/02/style.js.php?53, line 15: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/02/style.js.php?53, line 54: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/02/style.js.php?53, line 54: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/02/style.js.php?53, line 15: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/02/style.js.php?53, line 15: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/02/style.js.php?53, line 54: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/02/style.js.php?53, line 54: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/02/style.js.php?53, line 15: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/02/style.js.php?53, line 15: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/02/style.js.php?53, line 54: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/02/style.js.php?53, line 54: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/02/style.js.php?53, line 15: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/02/style.js.php?53, line 15: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/02/style.js.php?53, line 54: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/02/style.js.php?53, line 54: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/02/style.js.php?53, line 15: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript error: https://www.mirkrestikom.ru/, line 492: SyntaxError: missing ] after element list
+JavaScript note: https://www.mirkrestikom.ru/, line 492: [ opened at line 492, column 12
+JavaScript error: https://www.mirkrestikom.ru/, line 471: SyntaxError: missing ] after element list
+JavaScript note: https://www.mirkrestikom.ru/, line 471: [ opened at line 471, column 12
+JavaScript error: https://www.mirkrestikom.ru/cabinet/userinfo/?uid=362, line 443: SyntaxError: missing ] after element list
+JavaScript note: https://www.mirkrestikom.ru/cabinet/userinfo/?uid=362, line 443: [ opened at line 443, column 12
+Unable to read VR Path Registry from C:\Users\user\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 8336, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\user\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6640, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6640, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8336, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 4408, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+1518614756423	geckodriver	INFO	geckodriver 0.19.1
+1518614756423	geckodriver	INFO	Listening on 127.0.0.1:57837
+1518614756960	mozrunner::runner	INFO	Running command: "c:\\program files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofile.tSCr8sQv0q1c"
+1518614757689	Marionette	INFO	Enabled via --marionette
+1518614759287	Marionette	INFO	Listening on port 57841
+1518614759437	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\user\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/02/style.js.php?53, line 15: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/02/style.js.php?53, line 54: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/02/style.js.php?53, line 54: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/02/style.js.php?53, line 15: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/02/style.js.php?53, line 15: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/02/style.js.php?53, line 54: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/02/style.js.php?53, line 54: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/02/style.js.php?53, line 15: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/02/style.js.php?53, line 15: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/02/style.js.php?53, line 54: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/02/style.js.php?53, line 54: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/02/style.js.php?53, line 15: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/02/style.js.php?53, line 15: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/02/style.js.php?53, line 54: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/02/style.js.php?53, line 54: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/02/style.js.php?53, line 15: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 613: unreachable code after return statement
+JavaScript warning: https://www.mirkrestikom.ru/asp/src/03/functions.js?15, line 593: unreachable code after return statement
+JavaScript error: https://www.mirkrestikom.ru/, line 482: SyntaxError: missing ] after element list
+JavaScript note: https://www.mirkrestikom.ru/, line 482: [ opened at line 482, column 12
+JavaScript error: https://www.mirkrestikom.ru/, line 471: SyntaxError: missing ] after element list
+JavaScript note: https://www.mirkrestikom.ru/, line 471: [ opened at line 471, column 12
+JavaScript error: https://www.mirkrestikom.ru/cabinet/userinfo/?uid=362, line 443: SyntaxError: missing ] after element list
+JavaScript note: https://www.mirkrestikom.ru/cabinet/userinfo/?uid=362, line 443: [ opened at line 443, column 12
+Unable to read VR Path Registry from C:\Users\user\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 3088, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346

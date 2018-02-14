@@ -73,6 +73,13 @@ def step(context, text):
         EC.presence_of_element_located((By.ID, text)))
     context.browser.find_element_by_id(text).clear()
 
+# Clear element by name
+@then("clear element by name '{text}'")
+def step(context, text):
+    WebDriverWait(context.browser, 5).until(
+        EC.presence_of_element_located((By.NAME, text)))
+    context.browser.find_element_by_name(text).clear()
+
 # Find element by name and insert
 @then("insert in '{field}' '{text}'")
 def step(context, field, text):
