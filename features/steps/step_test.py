@@ -13,7 +13,7 @@ import time
 # Open page
 @given("website '{url}'")
 def step(context, url):
-    context.browser.get(url)
+    context.browser.get('https://www.mirkrestikom.ru'+url)
     
 # Scroll down
 @then("scroll to '{text}'")

@@ -1,6 +1,6 @@
-Feature: Checking qsearch (step)
+Feature: Checking qsearch
 Scenario Outline: Open page
-  Given website 'https://www.mirkrestikom.ru/'
+  Given website '/'
   Then clear by id 'search_input'
   Then insert by id 'search_input' '<text>'
   Then page wait '5'

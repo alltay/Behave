@@ -1,4 +1,4 @@
-Feature: Checking list (step)
+Feature: Checking list
 Scenario Outline: Change count
    Given website '<url>'
   Then scroll to '300'
@@ -10,41 +10,41 @@ Scenario Outline: Change count
   Then page include by class 'ss-pagact'
 
  Examples: Brands
-   | url                                                               | order | view       |
-   | https://www.mirkrestikom.ru/shop/nabori-dlya-vishivaniya-alisena/ | Все   | view_count |
-   | https://www.mirkrestikom.ru/shop/nabori-dlya-vishivaniya-alisena/ | 24    | view_count |
-   | https://www.mirkrestikom.ru/shop/nabori-dlya-vishivaniya-alisena/ | 50    | view_count |
-   | https://www.mirkrestikom.ru/shop/nabori-dlya-vishivaniya-alisena/ | 100   | view_count |
-   | https://www.mirkrestikom.ru/shop/nabori-dlya-vishivaniya-alisena/ | 12   | view_count |
-
+   | url                                    | order | view       |
+   | /shop/nabori-dlya-vishivaniya-alisena/ | Все   | view_count |
+   | /shop/nabori-dlya-vishivaniya-alisena/ | 24    | view_count |
+   | /shop/nabori-dlya-vishivaniya-alisena/ | 50    | view_count |
+   | /shop/nabori-dlya-vishivaniya-alisena/ | 100   | view_count |
+   | /shop/nabori-dlya-vishivaniya-alisena/ | 12    | view_count |
+ 
  Examples: Tags
-   | url                                                                  | order | view       |
-   | https://www.mirkrestikom.ru/shop/nabory-dlja-rukodelija-abstrakciya/ | Все    | view_count |
-   | https://www.mirkrestikom.ru/shop/nabory-dlja-rukodelija-abstrakciya/ | 24    | view_count |
-   | https://www.mirkrestikom.ru/shop/nabory-dlja-rukodelija-abstrakciya/ | 50    | view_count |
-   | https://www.mirkrestikom.ru/shop/nabory-dlja-rukodelija-abstrakciya/ | 100   | view_count |
-   | https://www.mirkrestikom.ru/shop/nabory-dlja-rukodelija-abstrakciya/ | 12   | view_count |
+   | url                                       | order | view       |
+   | /shop/nabory-dlja-rukodelija-abstrakciya/ | Все   | view_count |
+   | /shop/nabory-dlja-rukodelija-abstrakciya/ | 24    | view_count |
+   | /shop/nabory-dlja-rukodelija-abstrakciya/ | 50    | view_count |
+   | /shop/nabory-dlja-rukodelija-abstrakciya/ | 100   | view_count |
+   | /shop/nabory-dlja-rukodelija-abstrakciya/ | 12    | view_count |
 
  Examples: Offers
-   | url                                 | order | view       |
-   | https://www.mirkrestikom.ru/offers/ | Все    | view_count |
-   | https://www.mirkrestikom.ru/offers/ | 24    | view_count |
-   | https://www.mirkrestikom.ru/offers/ | 50    | view_count |
-   | https://www.mirkrestikom.ru/offers/ | 100   | view_count |
-   | https://www.mirkrestikom.ru/offers/ | 12   | view_count |
+   | url      | order | view       |
+   | /offers/ | Все   | view_count |
+   | /offers/ | 24    | view_count |
+   | /offers/ | 50    | view_count |
+   | /offers/ | 100   | view_count |
+   | /offers/ | 12    | view_count |
 
  Examples: New
-   | url                              | order | view       |
-   | https://www.mirkrestikom.ru/new/ | Все    | view_count |
-   | https://www.mirkrestikom.ru/new/ | 24    | view_count |
-   | https://www.mirkrestikom.ru/new/ | 50    | view_count |
-   | https://www.mirkrestikom.ru/new/ | 100   | view_count |
-   | https://www.mirkrestikom.ru/new/ | 12   | view_count |
+   | url   | order | view       |
+   | /new/ | Все   | view_count |
+   | /new/ | 24    | view_count |
+   | /new/ | 50    | view_count |
+   | /new/ | 100   | view_count |
+   | /new/ | 12    | view_count |
 
  Examples: Special
-   | url                                          | order| view       |
-   | https://www.mirkrestikom.ru/shop/vishivanki/ | Все   | view_count |
-   | https://www.mirkrestikom.ru/shop/vishivanki/ | 24   | view_count |
-   | https://www.mirkrestikom.ru/shop/vishivanki/ | 50   | view_count |
-   | https://www.mirkrestikom.ru/shop/vishivanki/ | 100  | view_count |
-   | https://www.mirkrestikom.ru/shop/vishivanki/ | 12  | view_count |
+   | url               | order | view       |
+   | /shop/vishivanki/ | Все   | view_count |
+   | /shop/vishivanki/ | 24    | view_count |
+   | /shop/vishivanki/ | 50    | view_count |
+   | /shop/vishivanki/ | 100   | view_count |
+   | /shop/vishivanki/ | 12    | view_count |

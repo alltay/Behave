@@ -1,6 +1,6 @@
 Feature: Checking search (step)
 Scenario Outline: Try to search
-  Given website 'https://www.mirkrestikom.ru/'
+  Given website '/'
   Then clear by id 'search_input'
   Then insert by id 'search_input' '<text>'
   Then push on button by id 'search_submit'

@@ -1,7 +1,7 @@
-Feature: Checking forget page (step)
+Feature: Checking forget page
 @critical
 Scenario: Try to get new pass
-  Given website 'https://www.mirkrestikom.ru/'
+  Given website '/'
   Then push link with text 'вход'
   Then clear element by name 'email'
   Then insert in 'email' 'alltay@ya.ru'
