@@ -23,41 +23,54 @@ def step(context, text):
 # Click on link
 @then("push link with text '{text}'")
 def step(context, text):
-    WebDriverWait(context.browser, 5).until(
+    WebDriverWait(context.browser, 10).until(
         EC.element_to_be_clickable((By.XPATH, 
                                     '//a[text()="%s"]' % text)))
     context.browser.find_element_by_xpath('//a[text()="%s"]' % text).click()
 
+# Click on link with id
+@then("push link with id '{text}'")
+def step(context, text):
+    WebDriverWait(context.browser, 10).until(
+        EC.element_to_be_clickable((By.ID, text)))
+    context.browser.find_element_by_id(text).click()
+
+# Accept alert 
+@then("accept alert '{text}'")
+def step(context, text):
+    alert = context.browser.switch_to.alert
+    alert.accept()
+
 # Click on button by id
 @then("push on button by id '{text}'")
 def step(context, text):
-    WebDriverWait(context.browser, 5).until(
+    WebDriverWait(context.browser, 10).until(
         EC.element_to_be_clickable((By.ID, text)))
     context.browser.find_element_by_id(text).click()
 
 # Find element by class name
 @then("page include by class '{text}'")
 def step(context, text):
-    WebDriverWait(context.browser, 5).until(
+    WebDriverWait(context.browser, 10).until(
         EC.element_to_be_clickable((By.CLASS_NAME, text)))
 
 # Find element by id
 @then("page include by id '{text}'")
 def step(context, text):
-    WebDriverWait(context.browser, 5).until(
+    WebDriverWait(context.browser, 10).until(
         EC.element_to_be_clickable((By.ID, text)))
 
 # Find element by id and insert
 @then("insert by id '{id}' '{text}'")
 def step(context, id ,text):
-    WebDriverWait(context.browser, 5).until(
+    WebDriverWait(context.browser, 10).until(
         EC.presence_of_element_located((By.ID, id)))
     context.browser.find_element_by_id(id).send_keys(text)
 
 # Find element by id and clear
 @then("clear by id '{id}'")
 def step(context, id):
-    WebDriverWait(context.browser, 5).until(
+    WebDriverWait(context.browser, 10).until(
         EC.presence_of_element_located((By.ID, id)))
     context.browser.find_element_by_id(id).clear()
 
@@ -69,28 +82,28 @@ def step(context, tag, text):
 # Clear element by id
 @then("clear element by id '{text}'")
 def step(context, text):
-    WebDriverWait(context.browser, 5).until(
+    WebDriverWait(context.browser, 10).until(
         EC.presence_of_element_located((By.ID, text)))
     context.browser.find_element_by_id(text).clear()
 
 # Clear element by name
 @then("clear element by name '{text}'")
 def step(context, text):
-    WebDriverWait(context.browser, 5).until(
+    WebDriverWait(context.browser, 10).until(
         EC.presence_of_element_located((By.NAME, text)))
     context.browser.find_element_by_name(text).clear()
 
 # Find element by name and insert
 @then("insert in '{field}' '{text}'")
 def step(context, field, text):
-    WebDriverWait(context.browser, 5).until(
+    WebDriverWait(context.browser, 10).until(
         EC.presence_of_element_located((By.NAME, field)))
     context.browser.find_element(By.NAME, field).send_keys(text)
 
 # Click on input button 
 @then("сlick on input button '{text}'")
 def step(context, text):
-    WebDriverWait(context.browser, 5).until(
+    WebDriverWait(context.browser, 10).until(
         EC.element_to_be_clickable((By.XPATH, 
                                     '//input[@value="%s"]' % text)))
     context.browser.find_element_by_xpath('//input[@value="%s"]' % text).click()
@@ -98,7 +111,7 @@ def step(context, text):
 # Select from list by class
 @then(u"select {field} from list by name {text}")
 def step(context, field, text):
-    WebDriverWait(context.browser, 5).until(
+    WebDriverWait(context.browser, 10).until(
         EC.presence_of_element_located((By.NAME, text)))   
     select = Select(context.browser.find_element_by_name(text))
     select.select_by_visible_text(field)
