@@ -121,6 +121,15 @@ def step(context, field, text):
 def step(context, text):
 	time.sleep(int(text))
 
+# Click on button by class and position
+@then("push on button by class '{text}' and position '{count}'")
+def step(context, text, count):
+    time.sleep(3)
+    button=context.browser.find_elements_by_class_name(text)[int(count)]
+    button.click()
 
-
-
+# Screenshot
+@then("screenshot")
+def step(context):
+    allure.attach(context.browser.get_screenshot_as_png(), 
+        name='screenshot', attachment_type=allure.attachment_type.PNG)
