@@ -6,7 +6,7 @@ Scenario: Make order
   Then insert in 'uname' '11111'
   Then сlick on input button 'Войти'
 @normal
-Scenario: Multi filter
+Scenario: Making order
   Given website '/shop/goods/2691065_13666-dms-viktorianskoe-ocharovanie/'
   Then scroll to '800'
   Then push link with id 'button_order'
@@ -21,7 +21,7 @@ Scenario: Multi filter
   Then clear by id 'orderform_name'
   Then insert by id 'orderform_name' 'Aвтотест удалить'
   Then clear by id 'orderform_email'
-  Then insert by id 'orderform_email' 'autotest@test.com'
+  Then insert by id 'orderform_email' 'alltay@ya.ru'
   Then clear by id 'orderform_comment'
   Then insert by id 'orderform_comment' 'Aвтотест удалить'
   Then scroll to '1500'
